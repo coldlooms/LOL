@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coldlooms | Smart Connections for Real Clients</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <section class="hero">
+    <div class="container">
+      <img src="your-logo.png" alt="Coldlooms Logo" class="logo" />
+      <h1>Find Real Clients. Fast.</h1>
+      <p>Our outreach systems connect you with people who are ready to hire—no fluff, just results.</p>
+      <form class="lead-form">
+        <input type="text" placeholder="What service do you offer?" />
+        <input type="text" placeholder="Your ZIP code" />
+        <button type="submit">Get Started</button>
+      </form>
+    </div>
+  </section>
+</body>
+</html>
