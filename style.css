@@ -78,8 +78,8 @@ body {
 }
 .hero-curve {
   width: 100%;
-  max-width: 200px; /* keep it wide */
-  height: 100px;     /* reduce height */
+  max-width: 320px; /* wider now */
+  height: 90px;     /* still short */
   display: block;
   margin: 0 auto 1.5rem auto;
   border-bottom-left-radius: 50% 100%;
