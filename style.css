@@ -78,7 +78,7 @@ body {
 }
 .hero-curve {
   width: 100%;
-  max-width: 600px; /* reduce size from 800px to 600px */
+  max-width: 500px; /* reduce size from 600px to 500px */
   display: block;
   margin: 0 auto 1.5rem auto; /* reduce bottom space */
   border-bottom-left-radius: 50% 100%;
