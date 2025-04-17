@@ -254,9 +254,36 @@ body {
 }
 
 /* Responsive Tweaks */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .lead-form input {
+    min-width: 100%;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
   .how-it-works .steps {
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .contact-form {
+    padding: 0 1rem;
+  }
+
+  .hero-curve {
+    max-width: 100%;
+    aspect-ratio: auto;
+    height: auto;
+    border-bottom-left-radius: 50% 30%;
+    border-bottom-right-radius: 50% 30%;
   }
 }
