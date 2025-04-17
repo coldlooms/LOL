@@ -76,6 +76,16 @@ body {
   min-width: 250px;
   font-size: 1rem;
 }
+.hero-img {
+  width: 100%;
+  max-width: 700px;
+  display: block;
+  margin: 0 auto 2rem auto;
+  border-bottom-left-radius: 50% 100%;
+  border-bottom-right-radius: 50% 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
 
 .lead-form button,
 .search-bar button {
