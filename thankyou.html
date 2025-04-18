@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Thank You | LOL</title>
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f1fefc;
@@ -12,23 +18,39 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      text-align: center;
-      height: 100vh;
+      min-height: 100vh;
       padding: 2rem;
     }
+
     .thank-you-box {
-      max-width: 600px;
-      background: #fff;
-      padding: 3rem 2rem;
+      max-width: 500px;
+      width: 100%;
+      background: #ffffff;
+      padding: 2.5rem 1.5rem;
       border-radius: 12px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      text-align: center;
     }
+
     .thank-you-box h1 {
       color: #009688;
+      font-size: 2rem;
       margin-bottom: 1rem;
     }
+
     .thank-you-box p {
       font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 480px) {
+      .thank-you-box h1 {
+        font-size: 1.6rem;
+      }
+
+      .thank-you-box p {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
