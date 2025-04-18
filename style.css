@@ -35,6 +35,31 @@ body {
   padding: 3rem 0;
   text-align: center;
 }
+/* Sticky Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 999;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 1rem 0;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #009688;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  color: #00796b;
+}
 
 .logo {
   height: 90px;
