@@ -110,6 +110,16 @@ body {
   gap: 1rem;
   margin-bottom: 1.5rem;
 }
+.lead-form select {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  min-width: 250px;
+  font-size: 1rem;
+  background-color: white;
+  color: #333;
+  appearance: none;
+}
 
 .lead-form input,
 .search-bar input {
