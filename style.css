@@ -140,17 +140,22 @@ body {
   object-fit: cover;
 }
 
-.lead-form button,
-.search-bar button {
+.btn-scroll {
+  display: inline-block;
+  margin-top: 1rem;
   padding: 0.8rem 1.5rem;
   background-color: #009688;
-  border: none;
   color: white;
   font-weight: bold;
+  text-decoration: none;
   border-radius: 6px;
-  cursor: pointer;
   transition: background 0.3s ease;
 }
+
+.btn-scroll:hover {
+  background-color: #00796b;
+}
+
 
 .lead-form button:hover,
 .search-bar button:hover {
