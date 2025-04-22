@@ -258,6 +258,13 @@ body {
   font-size: 0.9rem;
   color: #777;
 }
+.disclaimer {
+  font-size: 0.85rem;
+  color: #888;
+  margin-top: 1rem;
+  text-align: center;
+}
+
 
 /* Call-To-Action Section */
 .cta {
