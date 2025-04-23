@@ -160,7 +160,10 @@ body {
 
 /* Services Section */
 .services {
-  background-color: #f8f8f8;
+  background-color: #f2fefd; /* soft teal tint */
+  padding: 4rem 2rem;
+  border-top: 1px solid #e0f2f1;
+  border-bottom: 1px solid #e0f2f1;
 }
 
 .services h2 {
