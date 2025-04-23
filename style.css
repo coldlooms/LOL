@@ -8,9 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 body {
+  margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #ffffff;
-  color: #222;
+  background-color: #009688; /* Full-page teal */
+  color: white;
   line-height: 1.6;
 }
 .site-footer {
