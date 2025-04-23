@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Us | LOL</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
     body {
       margin: 0;
@@ -12,29 +13,13 @@
       color: #3b2f2f;
     }
 
-    .navbar {
-      padding: 1rem 2rem;
-      background: #fff;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      border-bottom: 1px solid #ddd;
-    }
-
-    .navbar a {
-      color: #3b2f2f;
-      text-decoration: none;
-      font-weight: 500;
-      margin-left: 1.5rem;
-    }
-
     .about-section {
-      background-color: #FAF6F2;
-      min-height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 0 2rem;
+      min-height: 100vh;
+      padding: 2rem;
+      background-color: #FAF6F2;
     }
 
     .about-content {
@@ -74,6 +59,7 @@
       .about-content {
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
       }
 
       .about-text {
@@ -83,14 +69,6 @@
   </style>
 </head>
 <body>
-  <nav class="navbar">
-    <div><strong>ColdLooms</strong></div>
-    <div>
-      <a href="#">Sign in</a>
-      <a href="#">Contact</a>
-      <a href="#">FAQ</a>
-    </div>
-  </nav>
 
   <section class="about-section">
     <div class="about-content">
@@ -100,10 +78,11 @@
       </div>
       <div class="about-image">
         <a href="https://ibb.co/wN8MsvwK" target="_blank">
-          <img src="https://i.ibb.co/SXHRrLdK/Chat-GPT-Image-Apr-23-2025-02-53-24-PM-1.png" alt="About Us Illustration" border="0" />
+          <img src="https://i.ibb.co/SXHRrLdK/Chat-GPT-Image-Apr-23-2025-02-53-24-PM-1.png" alt="About Us Illustration" />
         </a>
       </div>
     </div>
   </section>
+
 </body>
 </html>
