@@ -259,8 +259,8 @@ body {
 
 /* Call-To-Action Section */
 .cta {
-  background-color: #009688;
-  color: white;
+  background-color: #ffffff; /* Change teal to white */
+  color: #222; /* Make text dark for contrast */
   text-align: center;
   padding: 4rem 1rem;
 }
