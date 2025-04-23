@@ -129,16 +129,6 @@ body {
   min-width: 250px;
   font-size: 1rem;
 }
-.hero-curve {
-  width: 100%;
-  max-width: 320px; /* wider now */
-  height: 90px;     /* still short */
-  display: block;
-  margin: 0 auto 1.5rem auto;
-  border-bottom-left-radius: 50% 100%;
-  border-bottom-right-radius: 50% 100%;
-  object-fit: cover;
-}
 
 .btn-scroll {
   display: inline-block;
@@ -382,14 +372,6 @@ section {
 
 
 @media (max-width: 768px) {
-  .hero h1 {
-    font-size: 2rem;
-  }
-  
-
-  .hero p {
-    font-size: 1rem;
-  }
 
   .lead-form input {
     min-width: 100%;
