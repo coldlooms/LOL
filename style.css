@@ -392,9 +392,10 @@ section {
 
 
 .hero-split {
-  background-color: #ffffff; /* make hero split background white */
-  color: #222; /* or #333 for a slightly lighter dark */
   display: flex;
+  background-color: #ffffff;
+  color: #222;
+  background-image: linear-gradient(to bottom, #ffffff, #f9f9f9);
   align-items: center;
   justify-content: space-between;
   padding: 5rem 2rem;
