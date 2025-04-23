@@ -467,6 +467,35 @@ section {
   margin: 2rem auto;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
+/* Make section titles bold and pop */
+.about-text h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Make body text brighter and easier to read */
+.about-text p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #e0fdf9;
+  font-weight: 500;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: Give nav links some style too */
+.navbar nav a {
+  color: #222;
+  font-weight: 600;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  transition: color 0.2s ease;
+}
+
+.navbar nav a:hover {
+  color: #4caf50;
+}
 
 @media (max-width: 480px) {
   .container {
