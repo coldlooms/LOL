@@ -189,20 +189,19 @@ body {
   border-bottom: 1px solid #e0f2f1;
 }
 
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #009688;
+}
+
 .services h2 {
   font-size: 2rem;
   color: #009688;
 }
-.card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
 
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
-}
-
-.grid {
+.services-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 1.5rem;
@@ -232,10 +231,6 @@ body {
   border-radius: 8px;
   margin-bottom: 1rem;
 }
-
-
-
-
 
 @media (min-width: 769px) {
   .card img {
