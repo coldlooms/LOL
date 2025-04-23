@@ -38,12 +38,17 @@
       color: #4caf50;
     }
 
+    .content-container {
+      background-color: #009688; /* Your teal background */
+      padding: 4rem 0;
+      color: white;
+    }
+
     .about-section {
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 5rem 3rem;
-      background-color: #ffffff;
     }
 
     .about-text {
@@ -53,22 +58,13 @@
 
     .about-text h1 {
       font-size: 3rem;
-      color: #2c3e50;
+      color: #ffffff;
     }
 
     .about-text p {
       font-size: 1.1rem;
-      color: #555;
+      color: #e0f2f1;
       margin: 1rem 0 2rem;
-    }
-
-    .about-text .btn {
-      padding: 0.75rem 1.5rem;
-      background-color: #2c3e50;
-      color: white;
-      text-decoration: none;
-      font-weight: 600;
-      border-radius: 6px;
     }
 
     .about-image {
@@ -98,6 +94,7 @@
   </style>
 </head>
 <body>
+
   <header class="navbar">
     <div class="logo">ColdLooms</div>
     <nav>
@@ -108,15 +105,17 @@
     </nav>
   </header>
 
-  <section class="about-section">
-    <div class="about-text">
-      <h1>About Us</h1>
-      <p>ColdLooms helps homeowners connect with trusted professionals — fast. Whether you're planning a renovation, need repairs, or starting a new project, our outreach system matches you with reliable contractors ready to get the job done right. .</p>
-    </div>
-    <div class="about-image">
-  <img src="https://i.ibb.co/ksbfRtS0/Chat-GPT-Image-Apr-22-2025-10-03-16-PM.png" alt="ColdLooms Team" />
-</div>
+  <div class="content-container">
+    <section class="about-section">
+      <div class="about-text">
+        <h1>About Us</h1>
+        <p>ColdLooms helps homeowners connect with trusted professionals — fast. Whether you're planning a renovation, need repairs, or starting a new project, our outreach system matches you with reliable contractors ready to get the job done right.</p>
+      </div>
+      <div class="about-image">
+        <img src="https://i.ibb.co/ksbfRtS0/Chat-GPT-Image-Apr-22-2025-10-03-16-PM.png" alt="ColdLooms Team" />
+      </div>
+    </section>
+  </div>
 
-  </section>
 </body>
 </html>
