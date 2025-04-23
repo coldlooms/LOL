@@ -87,6 +87,7 @@ body {
   max-width: 100%;
   height: auto;
   object-fit: contain;
+  margin-top: 1.5rem; /* This is what moves the image down */
 }
 
 @media (max-width: 768px) {
