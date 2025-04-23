@@ -385,15 +385,7 @@ section {
   .hero h1 {
     font-size: 2rem;
   }
-@media (max-width: 480px) {
-  .container {
-    padding: 2rem 1rem;
-  }
-
-  .btn-scroll {
-    width: 100%;
-    text-align: center;
-  }
+  
 
   .hero p {
     font-size: 1rem;
@@ -423,3 +415,12 @@ section {
     border-bottom-right-radius: 50% 30%;
   }
 }
+@media (max-width: 480px) {
+  .container {
+    padding: 2rem 1rem;
+  }
+
+  .btn-scroll {
+    width: 100%;
+    text-align: center;
+  }
