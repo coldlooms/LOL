@@ -342,6 +342,28 @@ body {
 }
 
 /* Responsive Tweaks */
+/* Your other styles above this... */
+
+.container ol, .container ul {
+  text-align: left;
+  margin: 1rem auto;
+  padding-left: 1.5rem;
+  max-width: 500px;
+}
+
+.container li {
+  margin-bottom: 0.8rem;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.container h1, .container h2 {
+  margin-bottom: 1rem;
+  color: #009688;
+}
+
+
+
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2rem;
