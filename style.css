@@ -458,6 +458,15 @@ section {
   object-fit: cover;
 }
 
+.content-container {
+  background-color: white;
+  color: #222;
+  border-radius: 12px;
+  padding: 3rem;
+  max-width: 1100px;
+  margin: 2rem auto;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
 
 @media (max-width: 480px) {
   .container {
