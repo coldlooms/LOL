@@ -440,6 +440,10 @@ section {
   height: auto;
   border-radius: 12px;
 }
+.hero-image img {
+  border-radius: 50% 50% 0 0 / 60% 60% 0 0;
+  object-fit: cover;
+}
 
 
 @media (max-width: 480px) {
@@ -448,6 +452,13 @@ section {
   }
 
   .btn-scroll {
-    width: 100%;
-    text-align: center;
-  }
+  background-color: #3e64ff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.btn-scroll:hover {
+  background-color: #2a4fcc;
+}
