@@ -385,6 +385,15 @@ section {
   .hero h1 {
     font-size: 2rem;
   }
+@media (max-width: 480px) {
+  .container {
+    padding: 2rem 1rem;
+  }
+
+  .btn-scroll {
+    width: 100%;
+    text-align: center;
+  }
 
   .hero p {
     font-size: 1rem;
