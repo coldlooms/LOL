@@ -3,35 +3,120 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About LOL | ColdLooms</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>About Us | ColdLooms</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f9f7;
+      color: #222;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 2rem;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    }
+
+    .navbar .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #4caf50;
+    }
+
+    .navbar nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #444;
+      font-weight: 500;
+    }
+
+    .navbar nav a:hover {
+      color: #4caf50;
+    }
+
+    .about-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 5rem 3rem;
+      background-color: #ffffff;
+    }
+
+    .about-text {
+      flex: 1;
+      max-width: 500px;
+    }
+
+    .about-text h1 {
+      font-size: 3rem;
+      color: #2c3e50;
+    }
+
+    .about-text p {
+      font-size: 1.1rem;
+      color: #555;
+      margin: 1rem 0 2rem;
+    }
+
+    .about-text .btn {
+      padding: 0.75rem 1.5rem;
+      background-color: #2c3e50;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 6px;
+    }
+
+    .about-image {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    .about-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .about-section {
+        flex-direction: column;
+        text-align: center;
+      }
+      .about-text, .about-image {
+        max-width: 100%;
+      }
+      .about-text h1 {
+        font-size: 2.2rem;
+      }
+    }
+  </style>
 </head>
 <body>
   <header class="navbar">
-    <div class="container nav-content">
-      <h1 class="logo">ColdLooms</h1>
-      <nav class="nav-links">
-        <a href="/">Home</a>
-        <a href="#features">Features</a>
-        <a href="#industries">Industries</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
+    <div class="logo">ColdLooms</div>
+    <nav>
+      <a href="#signin">Sign In</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#faq">FAQ</a>
+    </nav>
   </header>
 
- <section class="hero-split">
-  <div class="container hero-flex">
-    <div class="hero-text">
-      <h2 class="subheading">About Us</h2>
-      <h1>Helping businesses succeed</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <a href="#get-started" class="btn-split">Read More</a>
+  <section class="about-section">
+    <div class="about-text">
+      <h1>About Us</h1>
+      <p>ColdLooms uses proven outreach to connect real businesses with real people. We help companies of all sizes close more deals, humanize their communication, and deliver projects faster.</p>
+      <a href="#get-started" class="btn">Read More</a>
     </div>
-    <div class="hero-image">
-      <img src="about-us-illustration.png" alt="Team working together" />
+    <div class="about-image">
+      <img src="about-us-illustration.png" alt="Team working" />
     </div>
-  </div>
-</section>
-
+  </section>
 </body>
 </html>
