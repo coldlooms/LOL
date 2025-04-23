@@ -396,6 +396,8 @@ section {
 }
 
 .hero-split {
+  background-color: #009688; /* match the body */
+  color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -404,6 +406,7 @@ section {
   margin: 0 auto;
   flex-wrap: wrap;
 }
+
 
 .hero-left {
   flex: 1 1 45%;
