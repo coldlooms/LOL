@@ -102,27 +102,31 @@
 
 <!-- Section 5: Get Started CTA -->
 <section class="cta" id="contact" style="background-color: #fdfaf4; padding: 4rem 2rem;">
-  <div class="container" style="display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center; gap: 2rem; max-width: 1200px; margin: auto;">
-    <!-- Left Side: Illustration -->
-    <div style="flex: 1; min-width: 300px; max-width: 500px;">
-      <img src="https://i.ibb.co/5W1nJB9/A-flat-style-digital-illustration-advertisement-fe.png" alt="Pro Matching Illustration" style="width: 100%; max-width: 420px; display: block; margin: auto;" />
+  <div class="container" style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; max-width: 1200px; margin: auto; gap: 2rem;">
+    <!-- Left Side: Text + Image -->
+    <div style="flex: 1; min-width: 300px; max-width: 550px; display: flex; flex-direction: column; align-items: flex-start; gap: 1.5rem;">
+      <h2 style="font-size: 2.5rem; color: #00796b; margin: 0;">Find the Right <br /> Pro in Minutes.</h2>
+      <p style="font-size: 1.2rem; color: #333; max-width: 90%;">Tell us what you need done — we’ll match you with ready-to-work professionals in your area.</p>
+      <a href="#contact" style="background-color: #00796b; color: white; padding: 0.8rem 2rem; text-decoration: none; border-radius: 8px; font-weight: bold;">Send Matched</a>
+      <img src="https://i.postimg.cc/wTzDY31N/Chat-GPT-Image-Apr-24-2025-09-55-22-AM.png" alt="Pro Illustration" style="width: 100%; max-width: 400px; margin-top: 1rem; border-radius: 12px;">
     </div>
 
-    <!-- Right Side: Text and Form -->
-    <div style="flex: 1; min-width: 300px; max-width: 600px;">
-      <h2 style="font-size: 2.5rem; color: #00796b; margin-bottom: 1rem;">Find the Right Pro in Minutes.</h2>
-      <p style="font-size: 1.1rem; color: #333; margin-bottom: 2rem;">Tell us what you need done — we’ll match you with ready-to-work professionals in your area.</p>
+    <!-- Right Side: Contact Form -->
+    <form action="https://formspree.io/f/xvgkljww" method="POST" style="flex: 1; min-width: 300px; background: #fff; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); display: flex; flex-direction: column; gap: 1rem;">
+      <label><strong>Your Name</strong></label>
+      <input type="text" name="name" placeholder="Your Name" required style="padding: 0.7rem; border-radius: 6px; border: 1px solid #ccc;">
 
-      <form class="contact-form" action="https://formspree.io/f/xvgkljww" method="POST" style="display: flex; flex-direction: column; gap: 1rem;">
-        <input type="text" name="name" placeholder="Your Name" required style="padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px;" />
-        <input type="email" name="email" placeholder="Email Address" required style="padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px;" />
-        <input type="tel" name="phone" placeholder="Phone Number" required style="padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px;" />
-        <input type="text" name="address" placeholder="Street Address" required style="padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px;" />
-        <input type="text" name="zip" placeholder="ZIP Code" required style="padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px;" />
-        <textarea name="message" placeholder="Tell us what you need or offer..." required style="padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px; resize: vertical;"></textarea>
-        <button type="submit" style="padding: 0.75rem; font-size: 1.1rem; background-color: #00796b; color: white; border: none; border-radius: 5px; cursor: pointer;">Send Message</button>
-      </form>
-    </div>
+      <label><strong>Phone Number</strong></label>
+      <input type="tel" name="phone" placeholder="Phone Number" required style="padding: 0.7rem; border-radius: 6px; border: 1px solid #ccc;">
+
+      <label><strong>ZIP Code</strong></label>
+      <input type="text" name="zip" placeholder="ZIP Code" required style="padding: 0.7rem; border-radius: 6px; border: 1px solid #ccc;">
+
+      <label><strong>Tell us what you need or offer...</strong></label>
+      <textarea name="message" placeholder="Your message" rows="4" required style="padding: 0.7rem; border-radius: 6px; border: 1px solid #ccc;"></textarea>
+
+      <button type="submit" style="background-color: #00796b; color: white; padding: 0.8rem; border: none; border-radius: 6px; font-weight: bold;">Send Message</button>
+    </form>
   </div>
 </section>
 
