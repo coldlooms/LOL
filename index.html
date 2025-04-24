@@ -101,22 +101,32 @@
 </section>
 
 <!-- Section 5: Get Started CTA -->
-<section class="cta" id="contact">
-  <div class="container">
-    <h2>Ready to Get Started?</h2>
-    <p>Whether you're offering services or looking for help, we're here to make the connection easy.</p>
-  <form class="contact-form" action="https://formspree.io/f/xvgkljww" method="POST">
-  <input type="text" name="name" placeholder="Your Name" required />
-  <input type="email" name="email" placeholder="Email Address" required />
-  <input type="tel" name="phone" placeholder="Phone Number" required />
-  <input type="text" name="address" placeholder="Street Address" required />
-  <input type="text" name="zip" placeholder="ZIP Code" required />
-  <textarea name="message" placeholder="Tell us what you need or offer..." required></textarea>
-  <button type="submit">Send Message</button>
-</form>
+<section class="cta" id="contact" style="background-color: #fdfaf4; padding: 4rem 2rem;">
+  <div class="container" style="display: flex; flex-direction: column; align-items: center; max-width: 1000px; margin: auto;">
+    <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-bottom: 2rem;">
+      <h2 style="font-size: 2.5rem; color: #00796b; margin-bottom: 1rem;">Find the Right Pro in Minutes.</h2>
+      <p style="max-width: 600px; font-size: 1.1rem; color: #333;">Tell us what you need done — we’ll match you with ready-to-work professionals in your area.</p>
+    </div>
+
+    <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 3rem;">
+      <!-- Illustration -->
+      <div style="flex: 1; min-width: 300px; max-width: 450px;">
+        <img src="https://i.ibb.co/5W1nJB9/A-flat-style-digital-illustration-advertisement-fe.png" alt="Get Matched Illustration" style="width: 100%; border-radius: 10px;" />
+      </div>
+
+      <!-- Form -->
+      <form class="contact-form" action="https://formspree.io/f/xvgkljww" method="POST" style="flex: 1; min-width: 300px; max-width: 450px; display: flex; flex-direction: column; gap: 1rem;">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Email Address" required />
+        <input type="tel" name="phone" placeholder="Phone Number" required />
+        <input type="text" name="address" placeholder="Street Address" required />
+        <input type="text" name="zip" placeholder="ZIP Code" required />
+        <textarea name="message" placeholder="Tell us what you need or offer..." required></textarea>
+        <button type="submit" style="background-color: #00796b; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 6px; cursor: pointer; font-size: 1rem;">Send Message</button>
+      </form>
+    </div>
   </div>
 </section>
-
 
 <!-- ✅ Footer (now placed correctly) -->
 <footer class="site-footer">
