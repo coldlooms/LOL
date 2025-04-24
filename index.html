@@ -102,31 +102,30 @@
 
 <!-- Section 5: Get Started CTA -->
 <section class="cta" id="contact" style="background-color: #fdfaf4; padding: 4rem 2rem;">
-  <div class="container" style="display: flex; flex-direction: column; align-items: center; max-width: 1000px; margin: auto;">
-    <div style="display: flex; flex-direction: column; align-items: center; text-align: center; margin-bottom: 2rem;">
-      <h2 style="font-size: 2.5rem; color: #00796b; margin-bottom: 1rem;">Find the Right Pro in Minutes.</h2>
-      <p style="max-width: 600px; font-size: 1.1rem; color: #333;">Tell us what you need done — we’ll match you with ready-to-work professionals in your area.</p>
+  <div class="container" style="display: flex; flex-direction: row; flex-wrap: wrap; align-items: center; justify-content: center; gap: 2rem; max-width: 1200px; margin: auto;">
+    <!-- Left Side: Illustration -->
+    <div style="flex: 1; min-width: 300px; max-width: 500px;">
+      <img src="https://i.ibb.co/5W1nJB9/A-flat-style-digital-illustration-advertisement-fe.png" alt="Pro Matching Illustration" style="width: 100%; max-width: 420px; display: block; margin: auto;" />
     </div>
 
-    <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: flex-start; gap: 3rem;">
-      <!-- Illustration -->
-      <div style="flex: 1; min-width: 300px; max-width: 450px;">
-<img src="https://i.postimg.cc/wTzDY31N/Chat-GPT-Image-Apr-24-2025-09-55-22-AM.png" alt="Get Matched Illustration" style="width: 100%; border-radius: 10px;" />
-      </div>
+    <!-- Right Side: Text and Form -->
+    <div style="flex: 1; min-width: 300px; max-width: 600px;">
+      <h2 style="font-size: 2.5rem; color: #00796b; margin-bottom: 1rem;">Find the Right Pro in Minutes.</h2>
+      <p style="font-size: 1.1rem; color: #333; margin-bottom: 2rem;">Tell us what you need done — we’ll match you with ready-to-work professionals in your area.</p>
 
-      <!-- Form -->
-      <form class="contact-form" action="https://formspree.io/f/xvgkljww" method="POST" style="flex: 1; min-width: 300px; max-width: 450px; display: flex; flex-direction: column; gap: 1rem;">
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Email Address" required />
-        <input type="tel" name="phone" placeholder="Phone Number" required />
-        <input type="text" name="address" placeholder="Street Address" required />
-        <input type="text" name="zip" placeholder="ZIP Code" required />
-        <textarea name="message" placeholder="Tell us what you need or offer..." required></textarea>
-        <button type="submit" style="background-color: #00796b; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 6px; cursor: pointer; font-size: 1rem;">Send Message</button>
+      <form class="contact-form" action="https://formspree.io/f/xvgkljww" method="POST" style="display: flex; flex-direction: column; gap: 1rem;">
+        <input type="text" name="name" placeholder="Your Name" required style="padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px;" />
+        <input type="email" name="email" placeholder="Email Address" required style="padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px;" />
+        <input type="tel" name="phone" placeholder="Phone Number" required style="padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px;" />
+        <input type="text" name="address" placeholder="Street Address" required style="padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px;" />
+        <input type="text" name="zip" placeholder="ZIP Code" required style="padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px;" />
+        <textarea name="message" placeholder="Tell us what you need or offer..." required style="padding: 0.75rem; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px; resize: vertical;"></textarea>
+        <button type="submit" style="padding: 0.75rem; font-size: 1.1rem; background-color: #00796b; color: white; border: none; border-radius: 5px; cursor: pointer;">Send Message</button>
       </form>
     </div>
   </div>
 </section>
+
 
 <!-- ✅ Footer (now placed correctly) -->
 <footer class="site-footer">
